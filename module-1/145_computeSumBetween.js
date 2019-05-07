@@ -15,10 +15,10 @@ function computeSumBetween(num1, num2) {
   if (num2 <= num1){
     return 0;
   } 
-  var mul=0;
+  var sum = 0;
   for(i = num1; i < num2; i++){
-     mul += i;
+     sum += i;
   }
-  return mul;
+  return sum;
 }
 
